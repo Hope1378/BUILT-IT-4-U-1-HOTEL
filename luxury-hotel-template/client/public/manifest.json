@@ -1,0 +1,15 @@
+{
+  "short_name": "Aurelia",
+  "name": "Aurelia Grand Luxury Hotel Template",
+  "icons": [
+    {
+      "src": "images/brand/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#090b10",
+  "background_color": "#090b10"
+}

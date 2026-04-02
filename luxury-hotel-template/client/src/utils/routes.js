@@ -1,0 +1,20 @@
+export const routes = {
+  home: '/',
+  rooms: '/rooms',
+  roomDetails: '/rooms/:roomId',
+  booking: '/booking',
+  dining: '/dining',
+  restaurantDetails: '/dining/signature-atelier',
+  spa: '/spa',
+  experiences: '/experiences',
+  events: '/events',
+  weddings: '/weddings',
+  meetings: '/meetings',
+  gallery: '/gallery',
+  about: '/about',
+  contact: '/contact',
+  blog: '/blog',
+  blogPost: '/blog/the-art-of-arrival',
+  offers: '/offers',
+  faq: '/faq'
+};

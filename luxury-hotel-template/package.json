@@ -1,0 +1,21 @@
+{
+  "name": "luxury-hotel-template",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "build:client": "npm install --prefix client && npm run build --prefix client",
+    "start:server": "npm start --prefix server"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^7.2.0",
+    "morgan": "^1.10.0"
+  }
+}

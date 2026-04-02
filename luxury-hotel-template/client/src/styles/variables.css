@@ -1,0 +1,13 @@
+:root {
+  --color-obsidian: #090b10;
+  --color-graphite: #121722;
+  --color-champagne: #e7d8ae;
+  --color-ivory: #f6f1e7;
+  --color-copper: #9f6b45;
+  --color-emerald: #224b49;
+  --glass-border: 1px solid rgba(255, 255, 255, 0.14);
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --section-gap-top: clamp(2.75rem, 5vw, 4.5rem);
+  --section-gap: clamp(5rem, 9vw, 8rem);
+  --content-width: min(92vw, 1440px);
+}

@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .mobile-panel-right {
+    right: 0.75rem;
+    width: min(86vw, 340px);
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,10 @@
+.display-heading {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.04em;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+}

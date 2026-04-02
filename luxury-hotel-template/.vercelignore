@@ -1,0 +1,14 @@
+.git/
+.vscode/
+documentation/
+deploy/
+server/node_modules/
+client/node_modules/
+client/build/
+node_modules/
+Dockerfile
+docker-compose.yml
+docker-compose.prod.yml
+npm-debug.log*
+generate-client.js
+generate-stack.js

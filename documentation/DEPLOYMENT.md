@@ -33,7 +33,8 @@ The React client should still be built separately and deployed as static assets 
 
 This repository is configured for a single Vercel project:
 
-- the React frontend is built from `client` using Vercel static build output
+- the React frontend is built from the repository root with `npm run build:client`
+- the static output directory is `client/build`
 - the Express API is exposed through Vercel Functions in `api`
 - `vercel.json` explicitly routes `/api/*` to the serverless API and all other routes to the React app
 
@@ -49,7 +50,8 @@ Deploy flow:
 1. Import the repository into Vercel.
 2. Keep the project root at the repository root.
 3. Add the production environment variables.
-4. Deploy.
+4. Leave the Vercel dashboard build command and output directory empty unless you intentionally want to override the values in `vercel.json`.
+5. Deploy.
 
 Preview deployments will also work because the API CORS policy accepts Vercel preview domains.
 

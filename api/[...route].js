@@ -1,1 +1,1 @@
-module.exports = require('../luxury-hotel-template/server/app');
+module.exports = require('../server/app');

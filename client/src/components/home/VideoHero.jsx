@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { localMedia } from '../../utils/localMedia';
 import './VideoHero.css';
 
+const mobileObjectPositions = ['center 30%', 'center 26%', 'center 24%'];
+
 const VideoHero = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -21,11 +23,12 @@ const VideoHero = () => {
         <img
           alt="Aurelia Grand hero scene"
           className={[
-            'absolute inset-0 h-full w-full object-cover transition-opacity duration-[2200ms]',
+            'videohero-image absolute inset-0 h-full w-full object-cover transition-opacity duration-[2200ms]',
             index === activeIndex ? 'opacity-50' : 'opacity-0'
           ].join(' ')}
           key={image}
           src={image}
+          style={{ '--mobile-object-position': mobileObjectPositions[index] }}
         />
       ))}
       <div className="absolute inset-0 bg-hero-gradient" />

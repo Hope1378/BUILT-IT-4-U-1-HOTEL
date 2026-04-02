@@ -1,1 +1,11 @@
 .videohero-root { position: relative; }
+
+.videohero-image {
+	object-position: center 50%;
+}
+
+@media (max-width: 767px) {
+	.videohero-image {
+		object-position: var(--mobile-object-position, center 28%);
+	}
+}
